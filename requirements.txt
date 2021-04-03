@@ -21,3 +21,4 @@ newsapi==0.1.1
 scikit_learn==0.24.1
 vaderSentiment==3.3.2
 xlrd==2.0.1 
+openpyxl==3.0.6
