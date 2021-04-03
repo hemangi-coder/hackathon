@@ -7,7 +7,8 @@ from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
 from sumy.summarizers.text_rank import TextRankSummarizer
 from score import *
-
+import nltk
+nltk.download('punkt')
 
 # Lex Rank
 def lex_rank(docx,x):
