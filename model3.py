@@ -2,7 +2,8 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import numpy as np
 from newspaper import Article
-from newsapi import NewsApiClient
+#from newsapi import NewsApiClient
+from newsapi.newsapi_client import NewsApiClient
 import pandas as pd
 from p3 import *
 from download import *
