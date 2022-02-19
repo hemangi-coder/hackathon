@@ -74,7 +74,8 @@ def m1():
                 tmp_download_link = download_link(result, 'YOUR_DF.csv', 'Click here to download your data!')
                 st.markdown(tmp_download_link, unsafe_allow_html=True)
 
-
+            df = pd.read_csv ('C:\Users\heman\Downloads\export.csv')
+            df.head()
             #scrapping new
             url = result['URL'][0]
             article = Article(url)
